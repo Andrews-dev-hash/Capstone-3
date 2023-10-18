@@ -17,12 +17,12 @@ export default function Register() {
   const [isActive, setIsActive] = useState(false);
 
   // Check if the values are logged
-  console.log(firstName);
-  console.log(lastName);
-  console.log(email);
-  console.log(mobileNo);
-  console.log(password);
-  console.log(confirmPassword);
+  // console.log(firstName);
+  // console.log(lastName);
+  // console.log(email);
+  // console.log(mobileNo);
+  // console.log(password);
+  // console.log(confirmPassword);
 
   function registerUser(e) {
     // Prevents page redirection via form submissions
